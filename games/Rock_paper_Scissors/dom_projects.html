@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM projects</title>
+</head>
+
+<body>
+    <p>
+        Yotube subscribe button
+    </p>
+    <button onclick=" subscribe();          //calling the subscribe function from the js//
+    " class="js-sub-btn">Subscribe
+    </button>
+
+
+
+    <script>
+        function subscribe(){
+                const buttonElement = document.querySelector('.js-sub-btn');
+    /* if(buttonElement.innerHTML==='Subscribe'){*/  
+        /* using the innerHTML will gives us all the content in the inner element (including the spaces so we can use innerTEXT only for the text)*/
+
+    if(buttonElement.innerText==='Subscribe'){
+        buttonElement.innerHTML='Subscribed';
+    
+    }
+    else{
+        buttonElement.innerHTML='Subscribe'
+    }
+        }
+    </script>
+</body>
+
+</html>
