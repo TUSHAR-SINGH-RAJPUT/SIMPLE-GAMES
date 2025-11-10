@@ -1,0 +1,5 @@
+step o1 : create a grid of 9*9 btn 
+step o2 : sp a user gets to click 1 st btn and the btn reveals whats behind it and then he click another btn if the --> contents match the card stay same way solving the pattern 
+and if it doesnt then it turn backs.....
+
+now i want to push a random image to random btn and save it for a while unless a reset is clicked
